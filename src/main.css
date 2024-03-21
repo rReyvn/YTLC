@@ -1,13 +1,15 @@
 :root {
-  --main: #7d40ff;
-  --main2: #37089c;
-  --secondary: #ff40b3;
-  --secondary2: #880353;
+  --main: #434F55;
+  --main2: #374145;
+  --secondary: #48584E;
+  --secondary2: #3C4841;
 }
+
 #buttons {
   display: flex;
   flex-direction: row;
 }
+
 .btn {
   border: none !important;
   padding: 10px;
@@ -19,6 +21,7 @@
 .btn:hover {
   background-color: var(--main2);
 }
+
 .btnOnSC,
 .btnOn {
   border: none !important;
@@ -31,9 +34,11 @@
   font-weight: 500;
   margin-right: 5px;
 }
+
 .btnOnSC {
   padding: 10px 5px;
 }
+
 .TextShadow {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
@@ -44,6 +49,7 @@
   /* background-color: var(--secondary2); */
   opacity: 80%;
 }
+
 .opt {
   border: none;
   padding: 7px;
@@ -60,11 +66,13 @@
   display: flex;
   flex-direction: row;
 }
+
 .toggle-buttons {
   display: flex;
   flex-direction: row;
   max-height: 40px;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -80,6 +88,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary2);
 }
-#timestamp{
+
+#timestamp {
   display: none !important;
 }
