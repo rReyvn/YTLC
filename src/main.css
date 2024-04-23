@@ -1,8 +1,8 @@
 :root {
-  --main: #434F55;
-  --main2: #374145;
-  --secondary: #48584E;
-  --secondary2: #3C4841;
+  --main: #32302f;
+  --main2: #504945;
+  --secondary: #1d2021;
+  --secondary2: #282828;
 }
 
 #buttons {
@@ -13,7 +13,7 @@
 .btn {
   border: none !important;
   padding: 10px;
-  color: #fff;
+  color: #d4be98;
   border-radius: 7px 0px 0px 7px;
   background-color: var(--main);
 }
@@ -26,7 +26,7 @@
 .btnOn {
   border: none !important;
   padding: 10px;
-  color: #fff;
+  color: #d4be98;
   border-radius: 7px;
   background-color: var(--secondary);
   height: 100%;
@@ -40,7 +40,10 @@
 }
 
 .TextShadow {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
     1px 1px 0 #000;
 }
 
@@ -92,3 +95,4 @@
 #timestamp {
   display: none !important;
 }
+
